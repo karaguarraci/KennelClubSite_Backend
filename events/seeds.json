@@ -1,0 +1,12 @@
+[
+{
+  "model": "events.event",
+  "pk": 2,
+  "fields": {
+    "title": "test2",
+    "date": "test2",
+    "address": "test2",
+    "description": "testtesttest22222"
+  }
+}
+]

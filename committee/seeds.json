@@ -1,0 +1,11 @@
+[
+{
+  "model": "committee.committee",
+  "pk": 2,
+  "fields": {
+    "title": "test1",
+    "name": "test1",
+    "contact": ""
+  }
+}
+]

@@ -1,0 +1,18 @@
+[
+{
+  "model": "photos.photo",
+  "pk": 1,
+  "fields": {
+    "title": "",
+    "image": "images/dachshund.jpg"
+  }
+},
+{
+  "model": "photos.photo",
+  "pk": 2,
+  "fields": {
+    "title": "test",
+    "image": "images/Dalmation.jpg"
+  }
+}
+]

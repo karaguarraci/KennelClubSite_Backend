@@ -1,0 +1,11 @@
+[
+{
+  "model": "training.training",
+  "pk": 2,
+  "fields": {
+    "name": "Schutzhund",
+    "date": "25 Jul 2023",
+    "time": "12:00"
+  }
+}
+]

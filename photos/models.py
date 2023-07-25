@@ -1,6 +1,6 @@
 from django.db import models
 
-class Photos(models.Model):
+class Photo(models.Model):
     title = models.TextField(blank=True)
     image = models.ImageField(upload_to='images/')
 
