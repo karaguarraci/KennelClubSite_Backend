@@ -9,8 +9,8 @@ import jwt
 from .models import User
 from rest_framework.exceptions import NotFound
 
-from .serializers.common import UserSerializer
-from .serializers.populated import PopulatedUserSerializer
+from .serializers import UserSerializer
+# from .serializers.populated import PopulatedUserSerializer
 User = get_user_model()
 
 class RegisterView(APIView):

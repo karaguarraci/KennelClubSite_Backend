@@ -22,5 +22,6 @@ urlpatterns = [
     path('events/', include('events.urls')),
     path('training/', include('training.urls')),
     path('committee/', include('committee.urls')),
-    path('photos/', include('photos.urls'))
+    path('photos/', include('photos.urls')),
+    path('auth/', include('jwt_auth.urls'))
 ]
