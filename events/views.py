@@ -31,6 +31,7 @@ class EventListView(APIView):
         
     
 class EventDetailView(APIView):
+    permission_classes = (IsAuthenticatedOrReadOnly,)
     
     def get_event(self, pk):
         try:
@@ -58,4 +59,4 @@ class EventDetailView(APIView):
     def delete(self, _request, pk):
         event_to_delete = self.get_event(pk=pk)
         event_to_delete.delete()
-        return Response(status=status.HTTP_404_NOT_FOUND)
+        return Response(status=status.HTTP_204_NO_CONTENT)

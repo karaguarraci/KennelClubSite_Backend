@@ -42,4 +42,4 @@ class PhotoDetailView(APIView):
     def delete(self, _request, pk):
         photo_to_delete = self.get_photo(pk=pk)
         photo_to_delete.delete()
-        return Response(status=status.HTTP_404_NOT_FOUND)
+        return Response(status=status.HTTP_204_NO_CONTENT)

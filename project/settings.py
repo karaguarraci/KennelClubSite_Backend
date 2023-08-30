@@ -45,8 +45,18 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://localhost:5173",
     "http://127.0.0.1:5173"
 ]
+
+# CORS_ALLOW_METHODS = [
+#     'DELETE',
+#     'GET',
+# ]
+
+# CORS_ALLOW_HEADERS = [
+#     'Authorization',
+# ]
 
 CORS_ORIGIN_ALLOW_ALL = False
 

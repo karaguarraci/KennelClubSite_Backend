@@ -58,4 +58,4 @@ class TrainingDetailView(APIView):
     def delete(self, _request, pk):
         training_to_delete = self.get_training(pk=pk)
         training_to_delete.delete()
-        return Response(status=status.HTTP_404_NOT_FOUND)
+        return Response(status=status.HTTP_204_NO_CONTENT)
